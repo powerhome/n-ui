@@ -60,20 +60,23 @@
         padding-bottom: 20px;
         box-sizing: border-box;
       }
-      .power-builder-section-6 .row {
-        padding-top: 20px;
-        padding-bottom: 0px;
-        box-sizing: border-box;
-      }
-      .power-builder-section-7 {
+      .power-builder-section-6 {
         border-top: 1px solid #cccccc;
       }
-      .power-builder-section-7 .row {
+      .power-builder-section-6 .row {
         padding-top: 20px;
         padding-bottom: 10px;
         box-sizing: border-box;
       }
-      .power-builder-section-9 .foot {
+      .power-builder-section-8 {
+        border-top: 1px solid #cccccc;
+      }
+      .power-builder-section-8 .row {
+        padding-top: 20px;
+        padding-bottom: 10px;
+        box-sizing: border-box;
+      }
+      .power-builder-section-10 .foot {
         width: 100%;
         height: 100px;
         display: block;
@@ -125,11 +128,11 @@
                                       <div class="row">
                                         <div class="col-md-12">
                                           <div class="" style="position: relative;">
-                                            <h1>Buttons
+                                            <h1>Use of Buttons
                                               <br>
                                             </h1>
-                                            <h2>Quisque finibus nec neque sit amet vehicula. Curabitur nisi odio, suscipit vel pellentesque quis, euismod vitae dolor. Pellentesque ultricies, mauris non luctus interdum, mauris nisi convallis purus, nec condimentum
-                                              nisi purus non mi. Suspendisse fermentum erat at quam ultrices mollis. Quisque dui tellus, tempus et purus non, mattis vulputate eros.</h2>
+                                            <h2>Buttons are arguably a design system\'s most important component. The use of this guideline is to help the Nitro team have an understanding to the different button uses through out Nitro. If used correctly,
+                                              it will create a more comprehensive interface that the end use can understand from instinct.</h2>
                                           </div>
                                         </div>
                                       </div>
@@ -147,8 +150,9 @@
                                             <h3>Guidelines
                                               <br>
                                             </h3>
-                                            <p>Integer vulputate quis odio at dictum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam congue sapien leo, quis finibus dui dignissim pharetra. Duis ultricies porttitor
-                                              diam id consequat. Nam sit amet laoreet lectus. Vestibulum ut tempus augue, quis mattis ante..</p>
+                                            <p>Therse guidelines are the framework upon which we have built our system for how buttons are used in Nitro.
+                                              <br>
+                                            </p>
                                           </div>
                                         </div>
                                       </div>
@@ -159,14 +163,17 @@
                               <div id="blockWrap-6" class="block-wrapper sl-block" ng-init="block_id = $index">
                                 <div class="__builder-block">
                                   <div class="">
-                                    <section class="power-builder-section power-builder-section-6 title-block">
+                                    <section class="power-builder-section power-builder-section-6 component-block">
                                       <div class="row">
                                         <div class="col-md-12">
                                           <div class="" style="position: relative;">
-                                            <h1>Use of Button</h1>
-                                            <h2>Buttons are arguably a design system’s most important component. The use of this guideline is to help the Nitro team have an understanding to the different button uses through out Nitro. If used correctly, it
-                                              will create a more comprehensive interface that the end user can understand from instinct.</h2>
-                                            <p>
+                                            <h1>Solid Buttons
+                                              <br>
+                                            </h1>
+                                            <h3>Basic Buttons
+                                              <br>
+                                            </h3>
+                                            <p>Used most in the interface. Only use another style if a button requires more or less visual weight.
                                               <br>
                                             </p>
                                           </div>
@@ -179,43 +186,20 @@
                               <div id="blockWrap-7" class="block-wrapper sl-block" ng-init="block_id = $index">
                                 <div class="__builder-block">
                                   <div class="">
-                                    <section class="power-builder-section power-builder-section-7 component-block">
-                                      <div class="row">
-                                        <div class="col-md-12">
-                                          <div class="" style="position: relative;">
-                                            <h1>Solid
-                                              <br>
-                                            </h1>
-                                            <h3>Basic&nbsp;Buttons
-                                              <br>
-                                            </h3>
-                                            <p>Donec augue leo, semper in sagittis non, hendrerit sit amet neque. Nulla scelerisque leo odio, a imperdiet nunc pharetra at.</p>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </section>
-                                  </div>
-                                </div>
-                              </div>
-                              <div id="blockWrap-8" class="block-wrapper sl-block" ng-init="block_id = $index">
-                                <div class="__builder-block">
-                                  <div class="">
-                                    <section class="power-builder-section power-builder-section-8 utility-grid-block">
+                                    <section class="power-builder-section power-builder-section-7 utility-grid-block">
                                       <div class="row settings-module">
                                         <div class="col-md-4">
                                           <div class="" style="position: relative;">
                                             <p>
-                                              <a class="btn btn-primary">Primary</a>
+                                              <a class="btn btn-default">Basic</a>
                                             </p>
-                                            <p>Primary
-                                              <br>
-                                            </p>
+                                            <p>Basic&nbsp;Default</p>
                                           </div>
                                         </div>
                                         <div class="col-md-4">
                                           <div class="" style="position: relative;">
                                             <p>
-                                              <button class="btn btn-default dropdown-toggle">Basic <span>&nbsp;</span></button>
+                                              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"> Button </button>
                                             </p>
                                             <p>Basic Default with dropdown menu option</p>
                                           </div>
@@ -233,11 +217,63 @@
                                   </div>
                                 </div>
                               </div>
+                              <div id="blockWrap-8" class="block-wrapper sl-block" ng-init="block_id = $index">
+                                <div class="__builder-block">
+                                  <div class="">
+                                    <section class="power-builder-section power-builder-section-8 component-block">
+                                      <div class="row">
+                                        <div class="col-md-12">
+                                          <div class="" style="position: relative;">
+                                            <h3>Primary Buttons
+                                              <br>
+                                            </h3>
+                                            <p>Use to highlight to most important actions in any experience. Don\'t use more than one primary button in a section or screen to avoid overwhelming users.</p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </section>
+                                  </div>
+                                </div>
+                              </div>
+                              <div id="blockWrap-9" class="block-wrapper sl-block" ng-init="block_id = $index">
+                                <div class="__builder-block">
+                                  <div class="">
+                                    <section class="power-builder-section power-builder-section-9 utility-grid-block">
+                                      <div class="row settings-module">
+                                        <div class="col-md-4">
+                                          <div class="" style="position: relative;">
+                                            <p>
+                                              <a class="btn btn-primary">Primary</a>
+                                            </p>
+                                            <p>Basic&nbsp;Default</p>
+                                          </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                          <div class="" style="position: relative;">
+                                            <p>
+                                              <button class="btn btn-primary dropdown-toggle">Primary</button>
+                                            </p>
+                                            <p>Basic Default with dropdown menu option</p>
+                                          </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                          <div class="" style="position: relative;">
+                                            <p>
+                                              <button class="btn btn-primary"><em class="fa fa-file-text-o">&nbsp;</em> Primary</button>
+                                            </p>
+                                            <p>Basic Default with icon signifier</p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </section>
+                                  </div>
+                                </div>
+                              </div>
                             </div>
                           </div>
                         </div>
                       </div>
-                      <section class="power-builder-section power-builder-section-9 foot-block">
+                      <section class="power-builder-section power-builder-section-10 foot-block">
                         <div class="foot"></div>
                       </section>
                     </div>
